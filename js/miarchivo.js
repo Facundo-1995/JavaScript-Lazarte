@@ -43,5 +43,10 @@ function mostrar() {
 
 function guardar() {
    guardarLocal ("ListaAlumnos", JSON.stringify(Alumnos));
+   Swal.fire(
+      'Buen trabajo!',
+      'Usted lo ha guardado!',
+      'success'
+    )
 }
 
